@@ -1,0 +1,92 @@
+# Resultados e quais colunas utilizadas:
+## Tempo Rodando: Treino:  ;
+                  Teste:   ;
+## base de dados: data_ 
+##Colunas: 'year', 'month', 'day', 
+            'hour','PM2.5', 'PM10',
+            'SO2', 'NO2', CO',
+            'O3', 'TEMP', 'PRES',
+            'DEWP', 'RAIN', 'WSPM',
+
+modelo:Random Forest (criterion='gini', 
+                        min_samples_leaf= 10,
+                        min_samples_split= 10, 
+                        n_estimators= 150)
+ Accuracy:0.6898313989587811% 
+ F1:0.6888027723678726% 
+ Recall:0.6898313989587811% 
+ Precision:0.6885628775338852% 
+ 
+modelo:Logistic Regression 
+ Accuracy:0.4847399340879782% 
+ F1:0.47383454981436984% 
+ Recall:0.4847399340879782% 
+ Precision:0.47392032676370954% 
+ 
+modelo:Decision Tree (criterion='gini', 
+                    min_samples_leaf= 10,
+                    min_samples_split= 5,
+                    splitter= 'best')
+ Accuracy:0.5533266466064861% 
+ F1:0.5549197377403055% 
+ Recall:0.5533266466064861% 
+ Precision:0.5575920380860122% 
+ 
+modelo:SVM 
+ Accuracy:0.6398481157758992% 
+ F1:0.6391387932866884% 
+ Recall:0.6398481157758992% 
+ Precision:0.6389774208442642% 
+ 
+modelo:RNA 
+ Accuracy:0.3972632182261069% 
+ F1:0.3830991505232062% 
+ Recall:0.3972632182261069% 
+ Precision:0.38826357380388193% 
+ 
+modelo:Multi_RNA (max_iter=1000,
+                verbose=True, 
+                tol=0.0000100 
+ Accuracy:0.6554186368629699% 
+ F1:0.6539119157418999% 
+ Recall:0.6554186368629699% 
+ Precision:0.6534084233351609% 
+ 
+modelo:KNN (n_neighbors= 20,
+             p=1)
+ Accuracy:0.6106653293212972% 
+ F1:0.6133263236720795% 
+ Recall:0.6106653293212972% 
+ Precision:0.6225590682561768% 
+
+
+______________________________________________________________________________________________
+
+## base de dados: data_12 
+## Tempo Rodando: Treino: 241m 45,7s  ;
+                  Teste:   46m;
+##Colunas: 'year', 'month', 'day', 
+            'hour','PM2.5', 'PM10',
+            'SO2', 'NO2', CO',
+            'O3', 'TEMP', 'PRES',
+            'DEWP', 'RAIN', 'WSPM',
+
+modelo:Random Forest 
+ Accuracy:0.442228127685306% 
+ F1:0.4333742571501435% 
+ Recall:0.442228127685306% 
+ Precision:0.43446978995275726% 
+ 
+modelo:Logistic Regression 
+ Accuracy:0.1952515833359855% 
+ F1:0.16945195955012352% 
+ Recall:0.1952515833359855% 
+ Precision:0.17875889297567674% 
+ 
+modelo:Decision Tree 
+ Accuracy:0.29807294484580377% 
+ F1:0.2970118848583313% 
+ Recall:0.29807294484580377% 
+ Precision:0.29741197399159264% 
+
+
