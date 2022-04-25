@@ -63,8 +63,8 @@ modelo:KNN (n_neighbors= 20,
 ______________________________________________________________________________________________
 
 ## base de dados: data_12 
-## Tempo Rodando: Treino: 241m 45,7s  ;
-                  Teste:   46m;
+## Tempo Rodando: Treino: 311m 45,7s  ;
+                  Teste:   77m;
 ##Colunas: 'year', 'month', 'day', 
             'hour','PM2.5', 'PM10',
             'SO2', 'NO2', CO',
@@ -72,10 +72,10 @@ ________________________________________________________________________________
             'DEWP', 'RAIN', 'WSPM',
 
 modelo:Random Forest 
- Accuracy:0.442228127685306% 
- F1:0.4333742571501435% 
- Recall:0.442228127685306% 
- Precision:0.43446978995275726% 
+ Accuracy:0.4416870882530792% 
+ F1:0.4330181321509713% 
+ Recall:0.4416870882530792% 
+ Precision:0.43406756822070486% 
  
 modelo:Logistic Regression 
  Accuracy:0.1952515833359855% 
@@ -84,9 +84,34 @@ modelo:Logistic Regression
  Precision:0.17875889297567674% 
  
 modelo:Decision Tree 
- Accuracy:0.29807294484580377% 
- F1:0.2970118848583313% 
- Recall:0.29807294484580377% 
- Precision:0.29741197399159264% 
+ Accuracy:0.2979456414499857% 
+ F1:0.29688305723452785% 
+ Recall:0.2979456414499857% 
+ Precision:0.2972962576217281% 
+ 
+modelo:SVM 
+ Accuracy:0.32021577925591166% 
+ F1:0.31003337579131496% 
+ Recall:0.32021577925591166% 
+ Precision:0.30884348523401634% 
+ 
+modelo:RNA 
+ Accuracy:0.11160529582126603% 
+ F1:0.09755305147500046% 
+ Recall:0.11160529582126603% 
+ Precision:0.12296800982000732% 
+ 
+modelo:Multi_RNA 
+ Accuracy:0.3082492600490118% 
+ F1:0.2949966603317264% 
+ Recall:0.3082492600490118% 
+ Precision:0.2996249596357837% 
+ 
+modelo:KNN 
+ Accuracy:0.30872664778332964% 
+ F1:0.30806954972007355% 
+ Recall:0.30872664778332964% 
+ Precision:0.3163290206145941% 
+ 
 
 
