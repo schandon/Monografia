@@ -1,7 +1,7 @@
 # Resultados e quais colunas utilizadas:
 ## Tempo Rodando: Treino:  ;
                   Teste:   ;
-## base de dados: data_ 
+## base de dados: data_ 4
 ##Colunas: 'year', 'month', 'day', 
             'hour','PM2.5', 'PM10',
             'SO2', 'NO2', CO',
@@ -58,6 +58,57 @@ modelo:KNN (n_neighbors= 20,
  F1:0.6133263236720795% 
  Recall:0.6106653293212972% 
  Precision:0.6225590682561768% 
+______________________________________________________________________________________________
+## base de dados: data_2
+## Tempo Rodando: Treino: 2m 45,7s  ;
+                  Teste:   1m 17,6s;
+##Colunas: 'year', 'month', 'day', 
+            'hour','PM2.5', 'PM10',
+            'SO2', 'NO2', CO',
+            'O3', 'TEMP', 'PRES',
+            'DEWP', 'RAIN', 'WSPM',
+
+modelo:Random Forest 
+ Accuracy:0.804620745620316% 
+ F1:0.8045520631579559% 
+ Recall:0.804620745620316% 
+ Precision:0.8053257724815834% 
+ 
+modelo:Logistic Regression 
+ Accuracy:0.6453291326554966% 
+ F1:0.6453252871228469% 
+ Recall:0.6453291326554966% 
+ Precision:0.6453234296780765% 
+ 
+modelo:Decision Tree 
+ Accuracy:0.7209890686906296% 
+ F1:0.7209713444613988% 
+ Recall:0.7209890686906296% 
+ Precision:0.7211809514412201% 
+ 
+modelo:SVM 
+ Accuracy:0.7755024106162586% 
+ F1:0.7754133577998993% 
+ Recall:0.7755024106162586% 
+ Precision:0.7762197066845291% 
+ 
+modelo:RNA 
+ Accuracy:0.5523891355195952% 
+ F1:0.5516143036582838% 
+ Recall:0.5523891355195952% 
+ Precision:0.5531332014152536% 
+ 
+modelo:Multi_RNA 
+ Accuracy:0.8000859229557497% 
+ F1:0.800022052259192% 
+ Recall:0.8000859229557497% 
+ Precision:0.8002954897475769% 
+ 
+modelo:KNN 
+ Accuracy:0.7564084204496635% 
+ F1:0.7556905510241096% 
+ Recall:0.7564084204496635% 
+ Precision:0.7601258058687161% 
 
 
 ______________________________________________________________________________________________
@@ -112,6 +163,216 @@ modelo:KNN
  F1:0.30806954972007355% 
  Recall:0.30872664778332964% 
  Precision:0.3163290206145941% 
+
+
+ # Mudança de Base de dados
+ ___________________________________________________________________________________
+ ## base de dados: data_2 
+## Tempo Rodando: Treino: 2m 33s  ;
+                  Teste:   1m 12s;
+##Colunas: 'PM2.5', 'PM10',
+            'SO2', 'NO2', CO',
+            'O3', 'TEMP', 'PRES',
+            'DEWP', 'RAIN', 'WSPM',
+
+modelo:Random Forest 
+ Accuracy:0.7723519022387704% 
+ F1:0.7722322803084323% 
+ Recall:0.7723519022387704% 
+ Precision:0.7732382710382327% 
  
+modelo:Logistic Regression 
+ Accuracy:0.644183493245501% 
+ F1:0.6441876331707697% 
+ Recall:0.644183493245501% 
+ Precision:0.6441979849631977% 
+ 
+modelo:Decision Tree 
+ Accuracy:0.6870972361449234% 
+ F1:0.6867574398162595% 
+ Recall:0.6870972361449234% 
+ Precision:0.6882945239250846% 
+ 
+modelo:SVM 
+ Accuracy:0.7336865721514153% 
+ F1:0.7333802367094476% 
+ Recall:0.7336865721514153% 
+ Precision:0.7351840516655745% 
+ 
+modelo:RNA 
+ Accuracy:0.6233233089884959% 
+ F1:0.6224849335090136% 
+ Recall:0.6233233089884959% 
+ Precision:0.6249101021004635% 
+ 
+modelo:Multi_RNA 
+ Accuracy:0.752732827342594% 
+ F1:0.7520284244201416% 
+ Recall:0.752732827342594% 
+ Precision:0.7562914688398467% 
+ 
+modelo:KNN 
+ Accuracy:0.7595589288271517% 
+ F1:0.7588850235823289% 
+ Recall:0.7595589288271517% 
+ Precision:0.7631483358423652% 
 
 
+
+ # Mudança de Base de dados
+ ___________________________________________________________________________________
+ ## base de dados: data_2 
+## Tempo Rodando: Treino: 2m 33s  ;
+                  Teste:   1m 12s;
+##Colunas: 'PM2.5', 
+            'SO2', 'NO2', CO',
+            'O3', 'TEMP', 'PRES',
+            'DEWP', 'RAIN', 'WSPM',
+
+modelo:Random Forest 
+ Accuracy:0.762232087450475% 
+ F1:0.7620805716969821% 
+ Recall:0.762232087450475% 
+ Precision:0.7632371202826301% 
+ 
+modelo:Logistic Regression 
+ Accuracy:0.6422740942288415% 
+ F1:0.6422295777321098% 
+ Recall:0.6422740942288415% 
+ Precision:0.6422676909720033% 
+ 
+modelo:Decision Tree 
+ Accuracy:0.68089168934078% 
+ F1:0.680772414213245% 
+ Recall:0.68089168934078% 
+ Precision:0.6814020650182834% 
+ 
+modelo:SVM 
+ Accuracy:0.7232326125352045% 
+ F1:0.7230097051600809% 
+ Recall:0.7232326125352045% 
+ Precision:0.7243056868904503% 
+ 
+modelo:RNA 
+ Accuracy:0.502935700988114% 
+ F1:0.502746152228242% 
+ Recall:0.502935700988114% 
+ Precision:0.5031185902454199% 
+ 
+modelo:Multi_RNA 
+ Accuracy:0.7364074657501551% 
+ F1:0.7363618521269919% 
+ Recall:0.7364074657501551% 
+ Precision:0.736461500484447% 
+ 
+modelo:KNN 
+ Accuracy:0.7535443219246742% 
+ F1:0.7531692444274058% 
+ Recall:0.7535443219246742% 
+ Precision:0.7555830562116511% 
+
+
+ # Mudança de Base de dados
+ ___________________________________________________________________________________
+ ## base de dados: data_2 
+## Tempo Rodando: Treino: 2m 33s  ;
+                  Teste:   1m 12s;
+##Colunas: 'PM2.5','SO2', 'NO2', CO'
+
+modelo:Random Forest 
+ Accuracy:0.6457587474342451% 
+ F1:0.644464819238535% 
+ Recall:0.6457587474342451% 
+ Precision:0.6485436864196774% 
+ 
+modelo:Logistic Regression 
+ Accuracy:0.5943959138861044% 
+ F1:0.5921396919649269% 
+ Recall:0.5943959138861044% 
+ Precision:0.5972460572904054% 
+ 
+modelo:Decision Tree 
+ Accuracy:0.6082390567568857% 
+ F1:0.6067852279990709% 
+ Recall:0.6082390567568857% 
+ Precision:0.610463220089878% 
+ 
+modelo:SVM 
+ Accuracy:0.6222731395293332% 
+ F1:0.6208402475817736% 
+ Recall:0.6222731395293332% 
+ Precision:0.6247696979030325% 
+ 
+modelo:RNA 
+ Accuracy:0.5038904004964437% 
+ F1:0.49676129022026827% 
+ Recall:0.5038904004964437% 
+ Precision:0.5032009012128998% 
+ 
+modelo:Multi_RNA 
+ Accuracy:0.638503031170939% 
+ F1:0.6382691310150986% 
+ Recall:0.638503031170939% 
+ Precision:0.6391448899558411% 
+ 
+modelo:KNN 
+ Accuracy:0.638693971072605% 
+ F1:0.6378365568386479% 
+ Recall:0.638693971072605% 
+ Precision:0.6405284494164314% 
+
+  # Mudança de Base de dados
+ ___________________________________________________________________________________
+ ## base de dados: data_2 
+## Tempo Rodando: Treino: 2m 33s  ;
+                  Teste:   1m 12s;
+##Colunas: 'O3', 'TEMP', 'PRES', 'DEWP'
+
+modelo:Random Forest 
+ Accuracy:0.6390758508759368% 
+ F1:0.6390349171107925% 
+ Recall:0.6390758508759368% 
+ Precision:0.639283079721948% 
+ 
+modelo:Logistic Regression 
+ Accuracy:0.5578309227170748% 
+ F1:0.5577821873313371% 
+ Recall:0.5578309227170748% 
+ Precision:0.5577945313120433% 
+ 
+modelo:Decision Tree 
+ Accuracy:0.5857081483603036% 
+ F1:0.5855563977384249% 
+ Recall:0.5857081483603036% 
+ Precision:0.5860382812189937% 
+ 
+modelo:SVM 
+ Accuracy:0.58575588333572% 
+ F1:0.5854445383788124% 
+ Recall:0.58575588333572% 
+ Precision:0.5862909584877678% 
+ 
+modelo:RNA 
+ Accuracy:0.5107165019810015% 
+ F1:0.49952410286468474% 
+ Recall:0.5107165019810015% 
+ Precision:0.5130606763116315% 
+ 
+modelo:Multi_RNA 
+ Accuracy:0.5947777936894363% 
+ F1:0.5946255230524017% 
+ Recall:0.5947777936894363% 
+ Precision:0.5947776120907805% 
+ 
+modelo:KNN 
+ Accuracy:0.6222731395293332% 
+ F1:0.6203002155578579% 
+ Recall:0.6222731395293332% 
+ Precision:0.6255933631636026% 
+
+  # Mudança de Base de dados
+ ___________________________________________________________________________________
+ ## base de dados: data_2 
+## Tempo Rodando: Treino: 2m 33s  ;
+                  Teste:   1m 12s;
+##Colunas: 'O3', 'TEMP', 'PRES', 'DEWP'
