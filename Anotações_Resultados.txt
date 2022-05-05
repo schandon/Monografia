@@ -1,0 +1,55 @@
+conf_01:
+modelo:Random Forest 
+Tempo do Treino do  Random Forest = 6.52099871635437
+
+ Accuracy:0.8768936678614098% 
+ F1:0.8768936678614098% 
+  Precision:0.8776004436810905% 
+Recall:0.8769719081877355% 
+ 
+modelo:Logistic Regression 
+Tempo do Treino do  Logistic Regression = 0.15049982070922852
+
+ Accuracy:0.7984229390681004% 
+ F1:0.7984229390681004% 
+  Precision:0.7989390622454546% 
+Recall:0.7984960602946214% 
+ 
+modelo:Decision Tree 
+Tempo do Treino do  Decision Tree = 0.2754998207092285
+
+ Accuracy:0.798757467144564% 
+ F1:0.798757467144564% 
+  Precision:0.799061108936368% 
+Recall:0.7988132922233642% 
+ 
+modelo:SVM 
+Tempo do Treino do  SVM = 55.26000213623047
+
+ Accuracy:0.8301553166069295% 
+ F1:0.8301553166069295% 
+  Precision:0.8305548898582921% 
+Recall:0.8302171976704351% 
+ 
+modelo:RNA 
+Tempo do Treino do  RNA = 0.05199790000915527
+
+ Accuracy:0.7156511350059738% 
+ F1:0.7156511350059738% 
+  Precision:0.7752772976186236% 
+Recall:0.714813977389517% 
+ 
+modelo:Multi_RNA 
+Tempo do Treino do  Multi_RNA = 31.77100133895874
+
+ Accuracy:0.8444444444444444% 
+ F1:0.8444444444444444% 
+  Precision:0.8446067804715529% 
+Recall:0.8444833847207948% 
+ 
+modelo:KNN 
+Tempo do Treino do  KNN = 0.29399800300598145
+ Accuracy:0.8622222222222222% 
+ F1:0.8622222222222222% 
+  Precision:0.8627327096187328% 
+Recall:0.862289825282631% 
