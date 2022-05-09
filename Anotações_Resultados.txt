@@ -1,55 +1,644 @@
 conf_01:
-modelo:Random Forest 
-Tempo do Treino do  Random Forest = 6.52099871635437
+Random Forest               precision    recall  f1-score   support
+Tempo do Treino do  Random Forest = 6.51
+     Huairou       0.90      0.85      0.87     10500
+Nongzhanguan       0.86      0.90      0.88     10425
 
- Accuracy:0.8768936678614098% 
- F1:0.8768936678614098% 
-  Precision:0.8776004436810905% 
-Recall:0.8769719081877355% 
- 
-modelo:Logistic Regression 
-Tempo do Treino do  Logistic Regression = 0.15049982070922852
+    accuracy                           0.88     20925
+   macro avg       0.88      0.88      0.88     20925
+weighted avg       0.88      0.88      0.88     20925
 
- Accuracy:0.7984229390681004% 
- F1:0.7984229390681004% 
-  Precision:0.7989390622454546% 
-Recall:0.7984960602946214% 
- 
-modelo:Decision Tree 
-Tempo do Treino do  Decision Tree = 0.2754998207092285
 
- Accuracy:0.798757467144564% 
- F1:0.798757467144564% 
-  Precision:0.799061108936368% 
-Recall:0.7988132922233642% 
- 
-modelo:SVM 
-Tempo do Treino do  SVM = 55.26000213623047
 
- Accuracy:0.8301553166069295% 
- F1:0.8301553166069295% 
-  Precision:0.8305548898582921% 
-Recall:0.8302171976704351% 
- 
-modelo:RNA 
-Tempo do Treino do  RNA = 0.05199790000915527
+Logistic Regression               precision    recall  f1-score   support
+Tempo do Treino do  Logistic Regression = 0.17
+     Huairou       0.81      0.78      0.79     10500
+Nongzhanguan       0.79      0.82      0.80     10425
 
- Accuracy:0.7156511350059738% 
- F1:0.7156511350059738% 
-  Precision:0.7752772976186236% 
-Recall:0.714813977389517% 
- 
-modelo:Multi_RNA 
-Tempo do Treino do  Multi_RNA = 31.77100133895874
+    accuracy                           0.80     20925
+   macro avg       0.80      0.80      0.80     20925
+weighted avg       0.80      0.80      0.80     20925
 
- Accuracy:0.8444444444444444% 
- F1:0.8444444444444444% 
-  Precision:0.8446067804715529% 
-Recall:0.8444833847207948% 
+
+
+Decision Tree               precision    recall  f1-score   support
+Tempo do Treino do  Decision Tree = 0.31
+     Huairou       0.81      0.78      0.79     10500
+Nongzhanguan       0.79      0.81      0.80     10425
+
+    accuracy                           0.80     20925
+   macro avg       0.80      0.80      0.80     20925
+weighted avg       0.80      0.80      0.80     20925
+
+
+
+SVM               precision    recall  f1-score   support
+Tempo do Treino do  SVM = 53.92
+     Huairou       0.84      0.81      0.83     10500
+Nongzhanguan       0.82      0.85      0.83     10425
+
+    accuracy                           0.83     20925
+   macro avg       0.83      0.83      0.83     20925
+weighted avg       0.83      0.83      0.83     20925
+
+
+
+RNA               precision    recall  f1-score   support
+Tempo do Treino do  RNA = 0.05
+     Huairou       0.65      0.95      0.77     10500
+Nongzhanguan       0.90      0.48      0.63     10425
+
+    accuracy                           0.72     20925
+   macro avg       0.78      0.71      0.70     20925
+weighted avg       0.77      0.72      0.70     20925
+
+
+
+Multi_RNA               precision    recall  f1-score   support
+Tempo do Treino do  Multi_RNA = 30.58
+     Huairou       0.86      0.81      0.84     10500
+Nongzhanguan       0.82      0.87      0.85     10425
+
+    accuracy                           0.84     20925
+   macro avg       0.84      0.84      0.84     20925
+weighted avg       0.84      0.84      0.84     20925
+
+
+
+KNN               precision    recall  f1-score   support
+Tempo do Treino do  KNN = 0.29
+     Huairou       0.88      0.84      0.86     10500
+Nongzhanguan       0.85      0.88      0.86     10425
+
+    accuracy                           0.86     20925
+   macro avg       0.86      0.86      0.86     20925
+weighted avg       0.86      0.86      0.86     20925
+
+
+_____________________________________________________________________________________
+
+conf_02:
+Random Forest               precision    recall  f1-score   support
+Tempo do Treino do  Random Forest = 17.69
+   Changping       0.54      0.56      0.55     10454
+     Gucheng       0.62      0.51      0.56     10544
+     Huairou       0.69      0.64      0.66     10355
+Nongzhanguan       0.63      0.75      0.68     10521
+
+    accuracy                           0.62     41874
+   macro avg       0.62      0.62      0.61     41874
+weighted avg       0.62      0.62      0.61     41874
+
+
+Logistic Regression               precision    recall  f1-score   support
+Tempo do Treino do  Logistic Regression = 3.49
+   Changping       0.35      0.28      0.31     10454
+     Gucheng       0.43      0.24      0.31     10544
+     Huairou       0.49      0.62      0.54     10355
+Nongzhanguan       0.47      0.65      0.55     10521
+
+    accuracy                           0.45     41874
+   macro avg       0.43      0.45      0.43     41874
+weighted avg       0.43      0.45      0.43     41874
+
+
+
+Decision Tree               precision    recall  f1-score   support
+Tempo do Treino do  Decision Tree = 0.79
+   Changping       0.39      0.42      0.40     10454
+     Gucheng       0.44      0.41      0.42     10544
+     Huairou       0.52      0.48      0.50     10355
+Nongzhanguan       0.52      0.56      0.54     10521
+
+    accuracy                           0.47     41874
+   macro avg       0.47      0.47      0.47     41874
+weighted avg       0.47      0.47      0.47     41874
+
+
+
+SVM               precision    recall  f1-score   support
+Tempo do Treino do  SVM = 576.4
+   Changping       0.40      0.43      0.41     10454
+     Gucheng       0.50      0.29      0.36     10544
+     Huairou       0.56      0.59      0.58     10355
+Nongzhanguan       0.52      0.68      0.59     10521
+
+    accuracy                           0.49     41874
+   macro avg       0.50      0.50      0.48     41874
+weighted avg       0.50      0.49      0.48     41874
+
+
+
+RNA               precision    recall  f1-score   support
+Tempo do Treino do  RNA = 0.2
+   Changping       0.67      0.00      0.00     10454
+     Gucheng       0.27      0.96      0.42     10544
+     Huairou       0.60      0.15      0.24     10355
+Nongzhanguan       0.56      0.06      0.11     10521
+
+    accuracy                           0.29     41874
+   macro avg       0.52      0.29      0.19     41874
+weighted avg       0.52      0.29      0.19     41874
+
+
+
+
+Multi_RNA               precision    recall  f1-score   support
+Tempo do Treino do  Multi_RNA = 75.39
+   Changping       0.43      0.42      0.43     10454
+     Gucheng       0.51      0.36      0.42     10544
+     Huairou       0.60      0.60      0.60     10355
+Nongzhanguan       0.53      0.69      0.60     10521
+
+    accuracy                           0.52     41874
+   macro avg       0.52      0.52      0.51     41874
+weighted avg       0.52      0.52      0.51     41874
+
+
+
+KNN               precision    recall  f1-score   support
+Tempo do Treino do  KNN = 0.6
+   Changping       0.48      0.60      0.53     10454
+     Gucheng       0.54      0.53      0.53     10544
+     Huairou       0.68      0.58      0.62     10355
+Nongzhanguan       0.67      0.61      0.64     10521
+
+    accuracy                           0.58     41874
+   macro avg       0.59      0.58      0.58     41874
+weighted avg       0.59      0.58      0.58     41874
+
+
+_____________________________________________________________________________________
+conf_03:
+Random Forest               precision    recall  f1-score   support
+Tempo do Treino do  Random Forest = 30.32
+   Changping       0.48      0.38      0.42     10556
+    Guanyuan       0.39      0.33      0.35     10428
+     Gucheng       0.46      0.50      0.48     10492
+     Huairou       0.62      0.54      0.57     10339
+Nongzhanguan       0.36      0.50      0.42     10545
+     Tiantan       0.38      0.38      0.38     10504
+
+    accuracy                           0.44     62864
+   macro avg       0.45      0.44      0.44     62864
+weighted avg       0.45      0.44      0.44     62864
+
+Logistic Regression               precision    recall  f1-score   support
+Tempo do Treino do  Logistic Regression = 6.58
+   Changping       0.30      0.19      0.23     10556
+    Guanyuan       0.24      0.13      0.17     10428
+     Gucheng       0.27      0.31      0.29     10492
+     Huairou       0.45      0.52      0.48     10339
+Nongzhanguan       0.26      0.48      0.34     10545
+     Tiantan       0.24      0.17      0.20     10504
+
+    accuracy                           0.30     62864
+   macro avg       0.29      0.30      0.28     62864
+weighted avg       0.29      0.30      0.28     62864
+
+Decision Tree               precision    recall  f1-score   support
+Tempo do Treino do  Decision Tree = 1.3
+   Changping       0.31      0.27      0.29     10556
+    Guanyuan       0.26      0.27      0.26     10428
+     Gucheng       0.32      0.32      0.32     10492
+     Huairou       0.45      0.38      0.41     10339
+Nongzhanguan       0.28      0.34      0.31     10545
+     Tiantan       0.27      0.29      0.28     10504
+
+    accuracy                           0.31     62864
+   macro avg       0.32      0.31      0.31     62864
+weighted avg       0.32      0.31      0.31     62864
+
+SVM               precision    recall  f1-score   support
+Tempo do Treino do  SVM = 2133.89
+   Changping       0.35      0.26      0.30     10556
+    Guanyuan       0.27      0.20      0.23     10428
+     Gucheng       0.35      0.30      0.33     10492
+     Huairou       0.49      0.53      0.51     10339
+Nongzhanguan       0.28      0.46      0.35     10545
+     Tiantan       0.31      0.28      0.30     10504
+
+    accuracy                           0.34     62864
+   macro avg       0.34      0.34      0.34     62864
+weighted avg       0.34      0.34      0.33     62864
+
+RNA               precision    recall  f1-score   support
+Tempo do Treino do  RNA = 0.94
+   Changping       0.23      0.68      0.34     10556
+    Guanyuan       0.26      0.06      0.10     10428
+     Gucheng       0.29      0.16      0.20     10492
+     Huairou       0.70      0.02      0.03     10339
+Nongzhanguan       1.00      0.00      0.00     10545
+     Tiantan       0.24      0.53      0.34     10504
+
+    accuracy                           0.24     62864
+   macro avg       0.45      0.24      0.17     62864
+weighted avg       0.45      0.24      0.17     62864
+
+Multi_RNA               precision    recall  f1-score   support
+Tempo do Treino do  Multi_RNA = 151.11
+   Changping       0.35      0.27      0.30     10556
+    Guanyuan       0.31      0.12      0.18     10428
+     Gucheng       0.38      0.29      0.33     10492
+     Huairou       0.48      0.56      0.52     10339
+Nongzhanguan       0.28      0.49      0.35     10545
+     Tiantan       0.29      0.33      0.31     10504
+
+    accuracy                           0.34     62864
+   macro avg       0.35      0.34      0.33     62864
+weighted avg       0.35      0.34      0.33     62864
+
+KNN               precision    recall  f1-score   support
+Tempo do Treino do  KNN = 1.24
+   Changping       0.38      0.40      0.39     10556
+    Guanyuan       0.29      0.37      0.33     10428
+     Gucheng       0.38      0.35      0.37     10492
+     Huairou       0.51      0.48      0.49     10339
+Nongzhanguan       0.32      0.35      0.34     10545
+     Tiantan       0.32      0.23      0.27     10504
+
+    accuracy                           0.36     62864
+   macro avg       0.37      0.36      0.36     62864
+weighted avg       0.37      0.36      0.36     62864
+_____________________________________________________________________________________
+conf_04:
+
+Tempo do Treino do  Random Forest = 45.74
+Random Forest                precision    recall  f1-score   support
+
+    Changping       0.42      0.39      0.40     10508
+     Guanyuan       0.32      0.26      0.28     10545
+      Gucheng       0.39      0.46      0.42     10482
+      Huairou       0.52      0.65      0.58     10434
+ Nongzhanguan       0.32      0.38      0.35     10531
+      Tiantan       0.32      0.37      0.35     10508
+       Wanliu       0.42      0.38      0.40     10399
+Wanshouxigong       0.37      0.22      0.28     10435
+
+     accuracy                           0.39     83842
+    macro avg       0.38      0.39      0.38     83842
+ weighted avg       0.38      0.39      0.38     83842
+
+Tempo do Treino do  Logistic Regression = 11.9
+Logistic Regression                precision    recall  f1-score   support
+
+    Changping       0.21      0.19      0.20     10508
+     Guanyuan       0.17      0.02      0.04     10545
+      Gucheng       0.22      0.21      0.21     10482
+      Huairou       0.35      0.63      0.45     10434
+ Nongzhanguan       0.19      0.32      0.24     10531
+      Tiantan       0.18      0.20      0.19     10508
+       Wanliu       0.22      0.31      0.26     10399
+Wanshouxigong       0.16      0.02      0.03     10435
+
+     accuracy                           0.24     83842
+    macro avg       0.21      0.24      0.20     83842
+ weighted avg       0.21      0.24      0.20     83842
+
+
+Tempo do Treino do  Decision Tree = 1.86
+Decision Tree                precision    recall  f1-score   support
+
+    Changping       0.26      0.25      0.25     10508
+     Guanyuan       0.21      0.20      0.20     10545
+      Gucheng       0.26      0.28      0.27     10482
+      Huairou       0.41      0.43      0.42     10434
+ Nongzhanguan       0.23      0.25      0.24     10531
+      Tiantan       0.23      0.26      0.25     10508
+       Wanliu       0.27      0.25      0.26     10399
+Wanshouxigong       0.21      0.18      0.19     10435
+
+     accuracy                           0.26     83842
+    macro avg       0.26      0.26      0.26     83842
+ weighted avg       0.26      0.26      0.26     83842
+
+
+Tempo do Treino do  SVM = 5067.57
+SVM                precision    recall  f1-score   support
+
+    Changping       0.27      0.29      0.28     10508
+     Guanyuan       0.20      0.10      0.13     10545
+      Gucheng       0.29      0.23      0.26     10482
+      Huairou       0.39      0.63      0.48     10434
+ Nongzhanguan       0.21      0.31      0.25     10531
+      Tiantan       0.23      0.28      0.25     10508
+       Wanliu       0.29      0.34      0.31     10399
+Wanshouxigong       0.22      0.05      0.08     10435
+
+     accuracy                           0.28     83842
+    macro avg       0.26      0.28      0.25     83842
+ weighted avg       0.26      0.28      0.25     83842
+
+Tempo do Treino do  RNA = 1.19
+RNA                precision    recall  f1-score   support
+
+    Changping       0.20      0.06      0.09     10508
+     Guanyuan       0.14      0.46      0.22     10545
+      Gucheng       0.07      0.00      0.00     10482
+      Huairou       0.77      0.01      0.02     10434
+ Nongzhanguan       0.00      0.00      0.00     10531
+      Tiantan       0.00      0.00      0.00     10508
+       Wanliu       0.00      0.00      0.00     10399
+Wanshouxigong       0.12      0.54      0.20     10435
+
+     accuracy                           0.13     83842
+    macro avg       0.16      0.13      0.07     83842
+ weighted avg       0.16      0.13      0.07     83842
+
+Tempo do Treino do  Multi_RNA = 163.82
+Multi_RNA                precision    recall  f1-score   support
+
+    Changping       0.28      0.28      0.28     10508
+     Guanyuan       0.22      0.09      0.13     10545
+      Gucheng       0.28      0.29      0.29     10482
+      Huairou       0.40      0.61      0.48     10434
+ Nongzhanguan       0.22      0.22      0.22     10531
+      Tiantan       0.23      0.36      0.28     10508
+       Wanliu       0.32      0.33      0.33     10399
+Wanshouxigong       0.23      0.09      0.13     10435
+
+     accuracy                           0.28     83842
+    macro avg       0.27      0.28      0.27     83842
+ weighted avg       0.27      0.28      0.27     83842
+
+Tempo do Treino do  KNN = 1.46
+KNN                precision    recall  f1-score   support
+
+    Changping       0.32      0.40      0.36     10508
+     Guanyuan       0.23      0.30      0.26     10545
+      Gucheng       0.32      0.32      0.32     10482
+      Huairou       0.44      0.53      0.48     10434
+ Nongzhanguan       0.28      0.29      0.28     10531
+      Tiantan       0.26      0.24      0.25     10508
+       Wanliu       0.38      0.28      0.32     10399
+Wanshouxigong       0.28      0.15      0.20     10435
+
+     accuracy                           0.31     83842
+    macro avg       0.31      0.31      0.31     83842
+ weighted avg       0.31      0.31      0.31     83842
+
+ _____________________________________________________________________________________
+conf_05:
+Tempo do Treino do  Random Forest = 61.38
+Random Forest                precision    recall  f1-score   support
+ Aotizhongxin       0.45      0.39      0.42     10587
+    Changping       0.45      0.53      0.48     10469
+       Dongsi       0.36      0.42      0.39     10580
+     Guanyuan       0.37      0.34      0.36     10463
+      Gucheng       0.47      0.50      0.48     10458
+      Huairou       0.57      0.70      0.63     10397
+ Nongzhanguan       0.37      0.34      0.36     10496
+      Tiantan       0.40      0.37      0.39     10544
+       Wanliu       0.51      0.47      0.49     10397
+Wanshouxigong       0.38      0.32      0.35     10442
+
+     accuracy                           0.44    104833
+    macro avg       0.43      0.44      0.43    104833
+ weighted avg       0.43      0.44      0.43    104833
+
+
+Tempo do Treino do  Logistic Regression = 16.27
+Logistic Regression                precision    recall  f1-score   support
+ Aotizhongxin       0.15      0.02      0.04     10587
+    Changping       0.16      0.19      0.18     10469
+       Dongsi       0.17      0.19      0.18     10580
+     Guanyuan       0.15      0.01      0.01     10463
+      Gucheng       0.20      0.17      0.18     10458
+      Huairou       0.29      0.67      0.40     10397
+ Nongzhanguan       0.16      0.14      0.15     10496
+      Tiantan       0.16      0.28      0.20     10544
+       Wanliu       0.18      0.26      0.21     10397
+Wanshouxigong       0.11      0.02      0.04     10442
+
+     accuracy                           0.19    104833
+    macro avg       0.17      0.20      0.16    104833
+ weighted avg       0.17      0.19      0.16    104833
+
+
+Tempo do Treino do  Decision Tree = 2.46
+Decision Tree                precision    recall  f1-score   support
+ Aotizhongxin       0.27      0.26      0.27     10587
+    Changping       0.29      0.31      0.30     10469
+       Dongsi       0.25      0.26      0.25     10580
+     Guanyuan       0.23      0.23      0.23     10463
+      Gucheng       0.30      0.30      0.30     10458
+      Huairou       0.46      0.47      0.46     10397
+ Nongzhanguan       0.23      0.23      0.23     10496
+      Tiantan       0.25      0.25      0.25     10544
+       Wanliu       0.31      0.30      0.30     10397
+Wanshouxigong       0.22      0.22      0.22     10442
+
+     accuracy                           0.28    104833
+    macro avg       0.28      0.28      0.28    104833
+ weighted avg       0.28      0.28      0.28    104833
+
+Tempo do Treino do  SVM = 7484.17
+SVM                precision    recall  f1-score   support
+ Aotizhongxin       0.25      0.06      0.09     10587
+    Changping       0.20      0.33      0.25     10469
+       Dongsi       0.19      0.25      0.22     10580
+     Guanyuan       0.17      0.06      0.09     10463
+      Gucheng       0.23      0.22      0.23     10458
+      Huairou       0.35      0.64      0.45     10397
+ Nongzhanguan       0.19      0.14      0.16     10496
+      Tiantan       0.18      0.28      0.22     10544
+       Wanliu       0.23      0.27      0.25     10397
+Wanshouxigong       0.18      0.06      0.09     10442
+
+     accuracy                           0.23    104833
+    macro avg       0.22      0.23      0.20    104833
+ weighted avg       0.22      0.23      0.20    104833
+
+
+Tempo do Treino do  RNA = 1.59
+RNA                precision    recall  f1-score   support
+ Aotizhongxin       0.09      0.03      0.04     10587
+    Changping       0.08      0.00      0.00     10469
+       Dongsi       0.00      0.00      0.00     10580
+     Guanyuan       0.11      0.47      0.18     10463
+      Gucheng       0.14      0.18      0.16     10458
+      Huairou       0.47      0.30      0.37     10397
+ Nongzhanguan       0.11      0.12      0.12     10496
+      Tiantan       0.13      0.01      0.01     10544
+       Wanliu       0.14      0.36      0.21     10397
+Wanshouxigong       0.04      0.00      0.00     10442
+
+     accuracy                           0.15    104833
+    macro avg       0.13      0.15      0.11    104833
+ weighted avg       0.13      0.15      0.11    104833
+
+Tempo do Treino do  Multi_RNA = 179.87
+Multi_RNA                precision    recall  f1-score   support
+ Aotizhongxin       0.24      0.17      0.20     10587
+    Changping       0.26      0.29      0.27     10469
+       Dongsi       0.21      0.29      0.24     10580
+     Guanyuan       0.19      0.08      0.11     10463
+      Gucheng       0.26      0.33      0.29     10458
+      Huairou       0.44      0.61      0.51     10397
+ Nongzhanguan       0.19      0.15      0.17     10496
+      Tiantan       0.24      0.24      0.24     10544
+       Wanliu       0.26      0.31      0.29     10397
+Wanshouxigong       0.17      0.11      0.13     10442
+
+     accuracy                           0.26    104833
+    macro avg       0.25      0.26      0.25    104833
+ weighted avg       0.25      0.26      0.25    104833
+
+Tempo do Treino do  KNN = 2.23
+KNN                precision    recall  f1-score   support
+ Aotizhongxin       0.23      0.37      0.29     10587
+    Changping       0.37      0.49      0.42     10469
+       Dongsi       0.25      0.33      0.29     10580
+     Guanyuan       0.24      0.25      0.25     10463
+      Gucheng       0.41      0.37      0.39     10458
+      Huairou       0.59      0.55      0.57     10397
+ Nongzhanguan       0.26      0.21      0.23     10496
+      Tiantan       0.29      0.23      0.26     10544
+       Wanliu       0.41      0.28      0.33     10397
+Wanshouxigong       0.26      0.18      0.21     10442
+
+     accuracy                           0.32    104833
+    macro avg       0.33      0.32      0.32    104833
+ weighted avg       0.33      0.32      0.32    104833
+
+______________________________________________________________________________
+conf_06
+
+Tempo do Treino do  Random Forest = 72.67
+Random Forest                precision    recall  f1-score   support
+ Aotizhongxin       0.38      0.38      0.38     10450
+    Changping       0.42      0.43      0.42     10460
+     Dingling       0.53      0.67      0.59     10568
+       Dongsi       0.34      0.39      0.37     10456
+     Guanyuan       0.33      0.32      0.32     10591
+      Gucheng       0.46      0.45      0.45     10389
+      Huairou       0.55      0.53      0.54     10236
+ Nongzhanguan       0.34      0.32      0.33     10649
+       Shunyi       0.45      0.46      0.45     10384
+      Tiantan       0.36      0.33      0.35     10427
+       Wanliu       0.45      0.48      0.47     10555
+Wanshouxigong       0.38      0.26      0.31     10519
+
+     accuracy                           0.42    125684
+    macro avg       0.42      0.42      0.42    125684
+ weighted avg       0.41      0.42      0.41    125684
+
+
+Tempo do Treino do  Logistic Regression = 20.02
+Logistic Regression                precision    recall  f1-score   support
+ Aotizhongxin       0.14      0.04      0.06     10450
+    Changping       0.16      0.16      0.16     10460
+     Dingling       0.24      0.52      0.33     10568
+       Dongsi       0.14      0.07      0.09     10456
+     Guanyuan       0.12      0.00      0.00     10591
+      Gucheng       0.19      0.14      0.16     10389
+      Huairou       0.25      0.28      0.26     10236
+ Nongzhanguan       0.15      0.16      0.15     10649
+       Shunyi       0.15      0.37      0.22     10384
+      Tiantan       0.14      0.10      0.11     10427
+       Wanliu       0.16      0.30      0.21     10555
+Wanshouxigong       0.12      0.01      0.02     10519
+
+     accuracy                           0.18    125684
+    macro avg       0.16      0.18      0.15    125684
+ weighted avg       0.16      0.18      0.15    125684
+
+Tempo do Treino do  Decision Tree = 2.89
+Decision Tree                precision    recall  f1-score   support
+ Aotizhongxin       0.23      0.24      0.23     10450
+    Changping       0.26      0.26      0.26     10460
+     Dingling       0.42      0.42      0.42     10568
+       Dongsi       0.23      0.23      0.23     10456
+     Guanyuan       0.20      0.21      0.20     10591
+      Gucheng       0.27      0.25      0.26     10389
+      Huairou       0.36      0.35      0.35     10236
+ Nongzhanguan       0.21      0.20      0.20     10649
+       Shunyi       0.27      0.28      0.28     10384
+      Tiantan       0.21      0.21      0.21     10427
+       Wanliu       0.29      0.29      0.29     10555
+Wanshouxigong       0.20      0.19      0.20     10519
+
+     accuracy                           0.26    125684
+    macro avg       0.26      0.26      0.26    125684
+ weighted avg       0.26      0.26      0.26    125684
+
+
+SVM                precision    recall  f1-score   support
+
+ Aotizhongxin       0.21      0.07      0.10     10450
+    Changping       0.19      0.27      0.22     10460
+     Dingling       0.28      0.56      0.38     10568
+       Dongsi       0.18      0.14      0.16     10456
+     Guanyuan       0.15      0.07      0.10     10591
+      Gucheng       0.23      0.18      0.20     10389
+      Huairou       0.33      0.28      0.30     10236
+ Nongzhanguan       0.17      0.14      0.15     10649
+       Shunyi       0.21      0.30      0.24     10384
+      Tiantan       0.16      0.21      0.18     10427
+       Wanliu       0.21      0.33      0.25     10555
+Wanshouxigong       0.18      0.03      0.06     10519
+
+     accuracy                           0.22    125684
+    macro avg       0.21      0.22      0.20    125684
+ weighted avg       0.21      0.22      0.20    125684
  
-modelo:KNN 
-Tempo do Treino do  KNN = 0.29399800300598145
- Accuracy:0.8622222222222222% 
- F1:0.8622222222222222% 
-  Precision:0.8627327096187328% 
-Recall:0.862289825282631% 
+
+ RNA                precision    recall  f1-score   support
+
+ Aotizhongxin       0.08      0.96      0.16     10450
+    Changping       0.00      0.00      0.00     10460
+     Dingling       0.00      0.00      0.00     10568
+       Dongsi       1.00      0.00      0.00     10456
+     Guanyuan       0.00      0.00      0.00     10591
+      Gucheng       0.00      0.00      0.00     10389
+      Huairou       0.37      0.13      0.19     10236
+ Nongzhanguan       0.00      0.00      0.00     10649
+       Shunyi       0.22      0.00      0.00     10384
+      Tiantan       0.00      0.00      0.00     10427
+       Wanliu       0.00      0.00      0.00     10555
+Wanshouxigong       0.10      0.03      0.05     10519
+
+     accuracy                           0.09    125684
+    macro avg       0.15      0.09      0.03    125684
+ weighted avg       0.15      0.09      0.03    125684
+
+Tempo do Treino do  Multi_RNA = 242.87
+Multi_RNA                precision    recall  f1-score   support
+ Aotizhongxin       0.20      0.18      0.19     10450
+    Changping       0.21      0.28      0.24     10460
+     Dingling       0.34      0.53      0.41     10568
+       Dongsi       0.18      0.20      0.19     10456
+     Guanyuan       0.17      0.08      0.11     10591
+      Gucheng       0.29      0.20      0.24     10389
+      Huairou       0.36      0.33      0.35     10236
+ Nongzhanguan       0.17      0.13      0.15     10649
+       Shunyi       0.23      0.32      0.27     10384
+      Tiantan       0.19      0.25      0.21     10427
+       Wanliu       0.25      0.26      0.26     10555
+Wanshouxigong       0.17      0.10      0.12     10519
+
+     accuracy                           0.24    125684
+    macro avg       0.23      0.24      0.23    125684
+ weighted avg       0.23      0.24      0.23    125684
+
+
+Tempo do Treino do  KNN = 1.9
+KNN                precision    recall  f1-score   support
+ Aotizhongxin       0.21      0.38      0.27     10450
+    Changping       0.31      0.43      0.36     10460
+     Dingling       0.45      0.55      0.50     10568
+       Dongsi       0.23      0.30      0.26     10456
+     Guanyuan       0.22      0.23      0.22     10591
+      Gucheng       0.37      0.31      0.34     10389
+      Huairou       0.51      0.39      0.44     10236
+ Nongzhanguan       0.25      0.21      0.23     10649
+       Shunyi       0.41      0.31      0.35     10384
+      Tiantan       0.27      0.20      0.23     10427
+       Wanliu       0.37      0.27      0.32     10555
+Wanshouxigong       0.26      0.16      0.20     10519
+
+     accuracy                           0.31    125684
+    macro avg       0.32      0.31      0.31    125684
+ weighted avg       0.32      0.31      0.31    125684
+
+
