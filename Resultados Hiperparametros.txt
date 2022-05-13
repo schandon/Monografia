@@ -1,0 +1,59 @@
+data_2
+Arvore de Decisão -> {'criterion': 'entropy', 'min_samples_leaf': 10, 'min_samples_split': 10, 'splitter': 'random'}
+0.7780015412006513
+Random Forest -> {'criterion': 'entropy', 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 150}
+0.8248130519498706
+KNN -> {'n_neighbors': 20, 'p': 1}  0.76
+Regression Logistic->{'C': 1.5, 'solver': 'newton-cg', 'tol': 0.0001}
+SVM -> 0
+Multi_RNA ->{'activation': 'logistic', 'max_iter': 500, 'solver': 'adam', 'tol': 0.0001}
+0.7696430350089971
+
+data_4
+Arvore de Decisão -> {'criterion': 'entropy', 'min_samples_leaf': 10, 'min_samples_split': 2, 'splitter': 'random'}
+0.41951064498220736
+Random Forest ->{'criterion': 'gini', 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 150}
+0.4890565134671177
+KNN -> {'n_neighbors': 20, 'p': 1}
+0.42593003261980106
+Regression Logistic->{'C': 2.0, 'solver': 'newton-cg', 'tol': 0.0001}
+0.44052402313257416
+SVM ->
+Multi_RNA ->{'activation': 'logistic', 'max_iter': 100, 'solver': 'adam', 'tol': 1e-05}
+0.4324425562966117
+
+
+data_6
+Arvore de Decisão -> 
+Random Forest ->
+KNN -> 
+Regression Logistic->
+SVM ->
+Multi_RNA ->
+
+
+data_8
+Arvore de Decisão -> 
+Random Forest ->
+KNN -> 
+Regression Logistic->
+SVM ->
+Multi_RNA ->
+
+
+data_10
+Arvore de Decisão -> 
+Random Forest ->
+KNN -> 
+Regression Logistic->
+SVM ->
+Multi_RNA ->
+
+
+data_12
+Arvore de Decisão -> 
+Random Forest ->
+KNN -> 
+Regression Logistic->
+SVM ->
+Multi_RNA ->
