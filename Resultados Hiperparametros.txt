@@ -24,12 +24,17 @@ Multi_RNA ->{'activation': 'logistic', 'max_iter': 100, 'solver': 'adam', 'tol':
 
 
 data_6
-Arvore de Decisão -> 
-Random Forest ->
-KNN -> 
-Regression Logistic->
+Arvore de Decisão -> {'criterion': 'entropy', 'min_samples_leaf': 10, 'min_samples_split': 2, 'splitter': 'random'}
+0.41951064498220736
+Random Forest ->{'criterion': 'gini', 'min_samples_leaf': 10, 'min_samples_split': 2, 'n_estimators': 150}
+0.4890565134671177
+KNN -> {'n_neighbors': 20, 'p': 1}
+0.42593003261980106
+Regression Logistic->{'C': 2.0, 'solver': 'newton-cg', 'tol': 0.0001}
+0.44052402313257416
 SVM ->
-Multi_RNA ->
+Multi_RNA ->{'activation': 'logistic', 'max_iter': 100, 'solver': 'adam', 'tol': 1e-05}
+0.4324425562966117
 
 
 data_8
