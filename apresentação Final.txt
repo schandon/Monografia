@@ -1,0 +1,56 @@
+Problema de Pesquisa:
+		Antes de começar de fato a falar sobre os algoritmos e os seus tipos e pra que server e onde se aplicam. 
+		
+		Mas
+		
+		* O que é machine learning?
+		Fazendo a tradução aprendizado de maquina e	são conceitos ligados a uma parte da computação chamada de inteligência computacional, que tem como objetivo fazer a construção de algoritmos baseados no aprendizado por meio de base de dados e não por instruções pré-programadas como de costume no desenvolvimento de aplicações como desenvolvimento Web ou aplicativos.
+		Vale ressaltar também que existem alguns tipos de algoritmos de aprendizado de maquina e que nesse trabalho eu estarei abordando os algoritmos de classificação.
+		
+	Objetivo:
+		O objetivo geral é fazer a comparação. No entanto, pegando o conceito que eu mencionei anteriormente, sobre o aprendizado por meio de base de dados, é necessário pontuar também os objetivos específicos que são:
+		* A utilização da linguagem de programação Python, que nela existem alguma bibliotecas que ajudam no desenvolvimento do projeto
+		* A organização da base de dados, que como serão os procedimentos de limpeza de dados, como os treinamento serão feitos e como separar o conjunto de treino e teste para a aplicação dos modelos.
+		* Quais escolhas de méricas para avaliação dos modelos de classificação, que melhor iriam representar o valor obtido pelos modelos após o treinamento
+		* E por como como configurar os modelos de classificação
+		
+	Justificativa:
+		Onde se aplica essa tecnologia de aprendizado de maquina? ela se aplica em diversos ambitos do nosso cotidiano, como por exemplo ao usar aplitivos no nosso smarthphone, ao abrir o Uber ou 99, que apartir dos dados da sua corrida, sendo sua localização, trajeto a percorrer, tempo de espera, tempo do viagem. O algoritmo reconhece os padrões utilizados para está viagem e promovo o encontro do motorista que irá melhor atender ao chamado.
+		
+		Uma segunda aplicação para essa tecnologia, pode ser percebida ao fazer alguma compra online, na amazon por exemplo, onde esse mecanismo é  chamado de sistema de recomendação, onde ao procurar ou comprar algum produto no site, o sistema faz a recomendação baseado em outros usuários que fizeram a mesma pesquisa
+	
+	* Metogologia
+		* Imersão de dados: 
+			Na imersão de dados ou exploração dos dados é o primeiro contato com os dados, neste momento são feitas pesquisas sobre o tema, quais tipo de inferencias pode-se fazer sobre aquelas informação, quais variaveis existente, quais os tipos da variaveis (Categoricas ou Númerica). 
+			A base de dados utiliza contem informações sobre qualidade do ar das cidade Beijing, e estavam organizada por cidade em 12 arquivos do tipo .csv como mais ou menos 35 mil registros por arquivo que totalizam 420 mil registros
+		
+		* Limpeza de Dados:
+			A limpeza tem como objetivo retirar os dados faltantes e o outliers que são pontos fora da curva. Inicialmente a trativa dos dados começou pela quantidade de dados faltantes, onde algumas cidades eram mais defasafas que outras.
+			Seguindo a trativa, para os dados do tipo númerico, os valores faltantes foram complestado com o valor da mediana de cada variavel, já para os valores de tipo categorico ou texto, foram retirados da analise.
+			Vale ressaltar que a substituição dos valores foi feita de forma a um a um, para que a base de dados não perdesse a originalidade.
+			
+		* Configuração e Separação das Bases:
+			Para a execução dos algoritmos de classificação, eu optei por fazer uma configuração de treino e teste das bases menos desafadas e assim ir aumentando as quantidade de dados para comparação de desempenhos.
+			Por exemplo:
+				1° configuração são os 2 conjuntos de dados menos desafados,
+				2° Configuração são os 4 conjuntos de dados menos desafados,
+			e assim sucessivamente até utilizar todos o conjunto de dados.
+			
+			Depois de escolher a configuração, a base era separada entre conjunto de treino e teste, sendo 70% treino, 30% teste e sempre pegar a mesma faixa de valores para que os valores possam ser textados para todas as configurações
+		
+		* Treino e Teste 
+			Antes da execução dos treinos e teste, foi executado a normalização de dados, que tem como objetivo deixar as variaveis todas na mesma base, naturalmente a distrubuição dos valores podem ter muito discrepancia e isso pode deixar o modelo tendencioso, podem acarretar um overfitting ou underfetting.
+			
+		* Avaliação dos Resultados
+			As foram feitas apartir de 3 métricas, sendo 2 auxialiares e 1 principal.
+			
+		* Analise dos Resultados
+			* Recall : a capacidade do classificador de encontrar todas as amostras positivas.
+			
+			* Precision: a capacidade do classificador de não rotular como positiva uma amostra que é negativa.
+			
+			* F1 é a média ponderada das duas metricas citadas anteriormente e ela foi escolhida como métrica principal deste trabalho.
+			
+			* A matriz de confusão foi utilizada para verifica quanto foi a quantidade de verdadeiros positivos, falsos negativos.
+		
+		* Podemos concluir que os melhores resultados utiliza

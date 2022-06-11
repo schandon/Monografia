@@ -1,0 +1,26 @@
+-> O que é machine learning?
+	Pertence ao ramo da inteligência computacional, que visa fazer a construção de algoritmos baseados no aprendizado por meio de base de dados e não por instruções pré-programadas como de costume.
+	
+-> Quais aplições de machine learning?
+	Citando alguns aplições dessa tecnologia:
+		* No aplicativos de mobilidade urbana como Uber ou 99, a partir dos dados da sua corrida, a plataforma se adpta aos padrões e faz com que você encontre o motorista com a melhor localização
+		* Uma segunda aplicação é o sistema de recomendação, onde um exemplo do nosso dia-a-dia é uma pesquisa de produto feita no google e esse produto começa a aparecer em todas as propagando seja em rede social ou youtube e até mesmo emails promocionais.
+		* E uma terceira aplicação é a detecção de fraudes, geralmente utilizada em operadoras de cartão de crédito em ações suspeita ou que saem do padrão do usuário.
+->Pode utilizar qualquer linguagem de programação? 
+	existe duas linguagens que normalmente são utilizar: a linguagem Python ou a linguagem R
+	
+	
+	O desenvolvimento do projeto seguiu essa linha do tempo que está na tela, iniciando pela 
+		* imersão de dados: Na imersão de dados ou exploração dos dados é o primeiro contato com os dados, neste momento são feitas pesquisas sobre o tema, quais tipo de inferencias pode-se fazer sobre aquelas informação, quais variaveis existente, quais os tipos da variaveis (Categoricas ou Númerica).
+		
+		
+		Iniciando a exploração de dados, a base de dados utilizada é separada em doze partes, onde cada parte dessa é um distrito das cidades de Beijing onde o dado foi coletado. Essa base de dados é chamada de Data Frame e cada coluna representa uma variavel. como pór exemplo:	Ano, Mês, Dia, Hora, concentração PM2.5 (ug/m^3), PM10 (ug/m^3), SO2 (ug/m^3), CO (ug/m^3), O3(ug/m^3), TEMP(Temperatura), PRES(pressão), DEWP(Temperatura do Ponto de orvalho em graus Celsius), RAIN(Quantidade de Chuva em mm), wd(Direção do Vento), WSPM (Velocidade do Vento em M/S), Station.
+		
+		Onde o PM2.5 e PM10 são particulas inalaveis de diametro inferior a 2,5 micrometros e 10 micrometros, respectivamente, que fazem dos elementos de poluição atmosferica.
+		
+		Cada linha do data frame representa é uma captura de informação que foi feita de uma em uma hora em cada uma das estações de coleta.
+		
+		partindo para a Analise de dados:
+		* Nesta etapa inicialmente, agrupou-se todas os elementos quimicos e as particulas de poluição para uma visualização de comportamente em separado por cada ano de coletado, esse agrupamento foi feito pelo valor da mediana de cada ano coletado.
+		
+		Seguindo na analise de dados, podemos ver um exemplo da distruição de dados do PM2.5 
